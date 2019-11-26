@@ -10,6 +10,7 @@ provides=("godot-nightly-bin")
 depends=("fuse2")
 source=("godot-nightly.desktop" "icons.tar.gz" "https://archive.hugo.pro/builds/godot/master/editor/godot-linux-nightly-x86_64.AppImage")
 noextract=("godot-linux-nightly-x86_64.AppImage")
+options=("!strip")
 md5sums=("SKIP" "863b88ca5652e14fa68f0523e8dda65a" "SKIP")
 
 
